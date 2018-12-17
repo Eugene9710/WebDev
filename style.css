@@ -1,0 +1,159 @@
+html {
+    scroll-behavior:smooth; 
+    
+}
+
+body {
+    margin: 0 auto;
+    width: 80%;
+    background-image: url(images/backgound.jpg);
+    background-repeat: repeat-x;
+    background-color: #2c2c2c;
+    
+}
+
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+    color:#dcefff;
+}
+
+p {
+    color: #dcefff;
+    font-size: 24px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    transition: 0.0s ease-in-out;
+    color: #40382D;
+}
+
+article a {
+    margin: 0 0;
+    padding: 0 0;
+    color: #dcefff;
+}
+
+article a:hover{
+    text-decoration: underline;
+}
+
+.nav-a  {
+    font-size: 40px;
+    color: #4a4a4a;
+    margin: 0px 0px;
+    padding: 10px 10px;
+}
+.nav-a:hover {
+    background:#4a4a4a;
+    color: #dfe1e0;
+}
+
+nav {
+    height: 64px;
+    width: 110%;
+}
+
+nav ul {
+    margin: 0px;
+}
+
+nav ul li {
+    float: left;
+    margin: 0 auto;
+    margin-left: 0%;
+    margin-right: auto;
+    position: relative;
+    list-style-type: none;
+}
+
+nav ul li a {
+    display: block;
+}
+
+header{
+    margin: 0 auto;
+    height: 185px;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-spacing: 10px 10px;
+    color:#dcefff;
+    font-size: 24px;
+}
+
+table td:first-child{
+    
+}
+
+tr:hover {
+    background: rgba(0, 128, 0, 0.24);
+}
+
+td {
+    border-bottom: 1px solid green;
+}
+
+.img {
+    display: inline-block;
+    width: 500px;
+    height: 260px;
+}
+
+#img-as {
+    background-image: url(images/spraits.png);
+    background-position: -100px -109px;
+    float: left;
+}
+
+
+#img-ai {
+    background-image: url(images/spraits.png);
+    background-position: -746px -105px;
+    float: right;
+}
+
+.images {
+    width: 1000px;
+    height: 260px;
+}
+
+.icon {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    list-style-type: none;
+}
+
+#java {
+    background-image: url(images/spraits.png);
+    background-position: -3px -5px;
+}
+
+#js {
+    background-image: url(images/spraits.png);
+    background-position: -67px -4px;
+}
+
+article li {
+    width: 500px;
+    font-size: 24px;
+    color: #dcefff; 
+}
+
+.text {
+    padding-left: 10px;
+      
+}
