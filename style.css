@@ -92,6 +92,7 @@ table {
     border-spacing: 10px 10px;
     color:#dcefff;
     font-size: 24px;
+    margin-bottom: 2%;
 }
 
 table td:first-child{
@@ -156,4 +157,27 @@ article li {
 .text {
     padding-left: 10px;
       
+}
+
+#form {
+    margin: 10px 10px;
+}
+
+from {
+    margin-top: 20px;  
+    padding: 37px 0px;
+    color: #dcefff;
+    font-size: 24px;
+}
+
+#name {
+    width: 240px;
+    height: 30px; 
+    
+}   
+
+button {
+    font-size: 24px;
+    color: #dcefff;
+    background: #40382D;
 }
