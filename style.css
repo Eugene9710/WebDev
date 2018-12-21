@@ -164,20 +164,33 @@ article li {
 }
 
 from {
+    margin: 0 auto;
     margin-top: 20px;  
     padding: 37px 0px;
     color: #dcefff;
     font-size: 24px;
 }
 
-#name {
-    width: 240px;
+.name {
+    width: 230px;
     height: 30px; 
-    
+    font-size: 24px;
 }   
+
 
 button {
     font-size: 24px;
     color: #dcefff;
     background: #40382D;
+}
+
+textarea {
+    margin-top: 20px;
+    float: left;
+    
+}
+
+#send {
+    margin-top: 10px;
+    float: left
 }
