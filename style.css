@@ -84,6 +84,7 @@ nav ul li a {
 header{
     margin: 0 auto;
     height: 185px;
+   
 }
 
 table {
@@ -161,6 +162,7 @@ article li {
 
 #form {
     margin: 10px 10px;
+    margin: 100%;
 }
 
 from {
@@ -192,5 +194,6 @@ textarea {
 
 #send {
     margin-top: 10px;
-    float: left
+    float: left;
+    margin-bottom: 10px; 
 }
