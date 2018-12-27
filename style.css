@@ -49,10 +49,10 @@ article a:hover{
 }
 
 .nav-a  {
-    font-size: 40px;
+    font-size: 36px;
     color: #4a4a4a;
     margin: 0px 0px;
-    padding: 10px 10px;
+    padding: 12px 7px;
 }
 .nav-a:hover {
     background:#4a4a4a;
@@ -61,7 +61,7 @@ article a:hover{
 
 nav {
     height: 64px;
-    width: 110%;
+    width: 100%;
 }
 
 nav ul {
@@ -189,11 +189,16 @@ button {
 textarea {
     margin-top: 20px;
     float: left;
-    
+    width: 100%;
+    resize: none;
 }
 
 #send {
     margin-top: 10px;
     float: left;
     margin-bottom: 10px; 
+}
+
+nav .mob_menu {
+    background: 
 }
